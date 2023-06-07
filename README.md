@@ -1,0 +1,5 @@
+# mahjong
+
+## License
+
+MIT
