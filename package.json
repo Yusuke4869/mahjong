@@ -6,14 +6,14 @@
   "author": "Yusuke4869",
   "scripts": {
     "dev": "ts-node-dev src/main.ts",
-    "build": "tsc",
+    "build": "rm -rf ./dist && tsc --project ./tsconfig.build.json",
     "start": "node dist/main.js",
     "lint": "eslint --ignore-path .gitignore src/**/*.ts",
     "lint:fix": "eslint --ignore-path .gitignore src/**/*.ts --fix",
-    "format": "prettier --write src/**/*.ts",
-    "format:check": "prettier --check src/**/*.ts",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "format": "prettier --write --ignore-path .gitignore **/*.ts",
+    "format:check": "prettier --check --ignore-path .gitignore **/*.ts",
+    "test": "jest --config ./jest.config.cjs",
+    "test:watch": "jest --watch --config ./jest.config.cjs",
     "prepare": "husky install"
   },
   "lint-staged": {
