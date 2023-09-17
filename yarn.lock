@@ -1106,13 +1106,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^29.5.4":
-  version: 29.5.4
-  resolution: "@types/jest@npm:29.5.4"
+"@types/jest@npm:^29.5.5":
+  version: 29.5.5
+  resolution: "@types/jest@npm:29.5.5"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: 38ed5942f44336452efd0f071eab60aaa57cd8d46530348d0a3aa5a691dcbf1366c4ca8f6ee8364efb45b4413bfefae443e5d4f469246a472a03b21ac11cd4ed
+  checksum: 56e55cde9949bcc0ee2fa34ce5b7c32c2bfb20e53424aa4ff3a210859eeaaa3fdf6f42f81a3f655238039cdaaaf108b054b7a8602f394e6c52b903659338d8c6
   languageName: node
   linkType: hard
 
@@ -1130,10 +1130,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.6.0":
-  version: 20.6.0
-  resolution: "@types/node@npm:20.6.0"
-  checksum: 52611801af5cf151c6fac1963aa4a8a8ca2e388a9e9ed82b01b70bca762088ded5b32cc789c5564220d5d7dccba2b8dd34446a3d4fc74736805e1f2cf262e29d
+"@types/node@npm:^20.6.2":
+  version: 20.6.2
+  resolution: "@types/node@npm:20.6.2"
+  checksum: 96fe5303872640a173f3fd43e289a451776ed5b8f0090094447c6790b43f23fb607eea8268af0829cef4d132e5afa0bfa4cd871aa7412e9042a414a698e9e971
   languageName: node
   linkType: hard
 
@@ -3729,8 +3729,8 @@ __metadata:
   resolution: "mahjong@workspace:."
   dependencies:
     "@trivago/prettier-plugin-sort-imports": ^4.2.0
-    "@types/jest": ^29.5.4
-    "@types/node": ^20.6.0
+    "@types/jest": ^29.5.5
+    "@types/node": ^20.6.2
     "@typescript-eslint/eslint-plugin": ^6.7.0
     "@typescript-eslint/parser": ^6.7.0
     eslint: ^8.49.0
@@ -5046,11 +5046,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
   languageName: node
   linkType: hard
 
