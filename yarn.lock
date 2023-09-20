@@ -1303,6 +1303,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@yusuke4869/mahjong@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@yusuke4869/mahjong@workspace:."
+  dependencies:
+    "@trivago/prettier-plugin-sort-imports": ^4.2.0
+    "@types/jest": ^29.5.5
+    "@types/node": ^20.6.2
+    "@typescript-eslint/eslint-plugin": ^6.7.0
+    "@typescript-eslint/parser": ^6.7.0
+    eslint: ^8.49.0
+    husky: ^8.0.3
+    jest: ^29.7.0
+    lint-staged: ^14.0.1
+    prettier: ^3.0.3
+    ts-jest: ^29.1.1
+    ts-node: ^10.9.1
+    ts-node-dev: ^2.0.0
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:^1.0.0":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -3723,27 +3744,6 @@ __metadata:
   checksum: e550d772384709deea3f141af34b6d4fa392e2e418c1498c078de0ee63670f1f46f5eee746e8ef7e69e1c895af0d4224e62ee33e66a543a14763b0f2e74c1356
   languageName: node
   linkType: hard
-
-"mahjong@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "mahjong@workspace:."
-  dependencies:
-    "@trivago/prettier-plugin-sort-imports": ^4.2.0
-    "@types/jest": ^29.5.5
-    "@types/node": ^20.6.2
-    "@typescript-eslint/eslint-plugin": ^6.7.0
-    "@typescript-eslint/parser": ^6.7.0
-    eslint: ^8.49.0
-    husky: ^8.0.3
-    jest: ^29.7.0
-    lint-staged: ^14.0.1
-    prettier: ^3.0.3
-    ts-jest: ^29.1.1
-    ts-node: ^10.9.1
-    ts-node-dev: ^2.0.0
-    typescript: ^5.2.2
-  languageName: unknown
-  linkType: soft
 
 "make-dir@npm:^3.0.0":
   version: 3.1.0
