@@ -5,6 +5,21 @@
   "private": true,
   "license": "MIT",
   "author": "Yusuke4869",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "!**/*.test.ts"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yusuke4869/mahjong.git"
+  },
   "scripts": {
     "dev": "ts-node-dev src/main.ts",
     "build": "rm -rf ./dist && tsc --project ./tsconfig.build.json",
@@ -15,6 +30,7 @@
     "format:check": "prettier --check --ignore-path .gitignore **/*.ts",
     "test": "jest --config ./jest.config.cjs",
     "test:watch": "jest --watch --config ./jest.config.cjs",
+    "prepublishOnly": "yarn run lint && yarn run format && yarn run test && yarn run build",
     "prepare": "husky install"
   },
   "lint-staged": {
