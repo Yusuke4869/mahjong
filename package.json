@@ -1,5 +1,6 @@
 {
   "name": "@yusuke4869/mahjong",
+  "description": "mahjong yaku judgment and score calculation",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
