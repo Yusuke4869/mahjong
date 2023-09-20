@@ -21,9 +21,7 @@
     "url": "https://github.com/Yusuke4869/mahjong.git"
   },
   "scripts": {
-    "dev": "ts-node-dev src/main.ts",
     "build": "rm -rf ./dist && tsc --project ./tsconfig.build.json",
-    "start": "node dist/main.js",
     "lint": "eslint --ignore-path .gitignore src/**/*.ts",
     "lint:fix": "eslint --ignore-path .gitignore src/**/*.ts --fix",
     "format": "prettier --write --ignore-path .gitignore **/*.ts",
