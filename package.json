@@ -1,8 +1,7 @@
 {
   "name": "@yusuke4869/mahjong",
   "description": "mahjong yaku judgment and score calculation",
-  "version": "0.1.0",
-  "private": false,
+  "version": "0.1.1",
   "license": "MIT",
   "author": "Yusuke4869",
   "main": "dist/index.js",
