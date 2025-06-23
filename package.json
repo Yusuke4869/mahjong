@@ -38,7 +38,7 @@
   },
   "packageManager": "yarn@4.9.2",
   "volta": {
-    "node": "20.19.2"
+    "node": "20.19.3"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
