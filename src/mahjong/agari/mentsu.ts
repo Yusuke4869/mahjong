@@ -71,7 +71,7 @@ export const getShuntsu = (data: ProcessingAgari): ProcessingAgari => {
     if (k === "jihai") continue;
     const t = fullType2Suffix(k);
 
-    for (let i = 0; i < 7; ) {
+    for (let i = 0; i < 7;) {
       const v1: number = hai[k][i];
       const v2: number = hai[k][i + 1];
       const v3: number = hai[k][i + 2];
